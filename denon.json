@@ -1,0 +1,18 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "scripts": {
+    "start": {
+      "desc": "Run the app",
+      "cmd": "deno run src/server.ts",
+      "allow": ["net"]
+    },
+    "fmt":{
+      "desc": "Format the code base",
+      "cmd": "deno fmt src/"
+    },
+    "test": {
+      "desc": "run the tests",
+      "cmd": "deno test"
+    }
+  }
+}
